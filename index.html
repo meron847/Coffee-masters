@@ -59,52 +59,32 @@
                             <input type="text" value="Ford Prefect" placeholder="Name for order"class=example-input >
                         </div>
              </div>
-
+                 
                 <div class="middium">
                         <p class="p-1">PAYMENT</h2>
-                        <label for="number">Card number </label>
-                        <input type="number" placeholder="1234567890123456">
-                        <label for="number">CCV Number</label>
-                        <input type="number" placeholder="001">
+                            <div>
+                        <label for="number" class="input-label">Card number </label>
+                        <input type="number" placeholder="1234567890123456" class="example-input">
+                        <label for="number" class="label">CCV Number</label>
+                        <input type="number" placeholder="001" class="input">
+                        </div>
                 </div>
          </div>
     </div>
+      <div class="vat">
+            <div class="text">
+                <P>Subtotal:</P> 
+                <p>Tax:</p>
+                <p>Total:</p>
+            </div>
 
-
-
-
-<div class="example-group">
-    <label for="example" class="input-label">Example</label>
-    <input id="example" class="example-input" placeholder="try typing here">
-</div>
-<style>
-    .example-group{
-        position:relative;
-        display: inline-block;
-    }
-    .example-input {
-        border-color:rgb(117, 74, 17);
-        padding:10px;
-        width:350px;
-        border-radius: 55px;
-        margin:10px;
-    }
-
-    .input-label {
-        
-        color:rgb(117, 74, 17);
-        position: relative;
-        left:25px;
-        right:0px;
-        top:10px;
-        padding: 0 2px;
-    }
-</style>
-
-
-
-
-
+            <div class="number">
+                 <span class="span-2">$9.65</span>
+                 <span  class="span-2">$0.82</span>
+                 <span  class="span-2">$10.47</span>
+             </div>
+        </div>
+        <button>Place order</button>
  </main>
 </body>
 </html>
